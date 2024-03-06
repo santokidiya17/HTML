@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Form 1</title>
+    </head>
+    <body>
+        <h1 align="center">Employee Registration</h1>
+        <form>
+        <table align="center">
+            <tr>
+                <td><fieldset>
+                    <legend>Personal Information</legend>
+                    <table align="center">
+                        <tr align="center">
+                            <td>Employee Id:</td>
+                            <td><input type="number" name="ID" ></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Employee Name:</td>
+                            <td><input type="name" name="name" ></td>
+                        </tr>
+                        <tr align="center">
+                            <td>E-Mail:</td>
+                            <td><input type="email" name="email"></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Contact No. :</td>
+                            <td><input type="number" name="number[0-9]{10}"></td>
+                        </tr>
+                        <tr>
+                            <td>Marital Status :</td>
+                            <td>Married<input type="radio" name="status" value="Married">
+                            Unmarried<input type="radio" name="status" value="Unmarried"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td><fieldset>
+                    <legend>Education/Experience</legend>
+                    <table align="center">
+                        <tr align="center">
+                            <td>Education:</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                        <tr align="center">
+                            <td>Experience</td>
+                            <td><textarea></textarea></td>
+                        </tr>
+                    </table>
+                </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td><fieldset>
+                <legend>Job Details</legend>
+                <table align="center">
+                    <tr align="center">
+                        <td>Designation:</td>
+                        <td><textarea></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Job Location: </td>
+                        <td>
+                        <select>
+                            <option selected>Rajkot</option>
+                            <option>Vadodara</option>
+                            <option>Ahemdabad</option>
+                            <option>Pune</option>
+                            <option>Mumbai</option>
+                            <option>Gandhinagar</option>
+                            <option>Porbandar</option>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr align="center">
+                        <td>Salary:</td>
+                        <td><input type="number" name="salary" ></td>
+                    </tr>
+                </table>
+            </fieldset></td>
+        </tr>
+        <tr>
+            <tr align="center">
+                <td>
+                    <input type="submit" name="submit" value="submit">
+                    <input type="button" name="cancel" value="cancel">
+                </td>
+            </tr>
+        </tr>
+        </table>
+        </form>
+    </body>
+</html>
